@@ -1,0 +1,26 @@
+REQUISITOS:
+TENER INSTALADO NODE.JS
+
+Ejecutar en el terminal 
+npm install
+
+crear database
+
+CREATE DATABASE database;
+
+crear tabla 
+CREATE TABLE tabla_historial (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(255) NOT NULL,
+  puntaje INT NOT NULL
+);
+
+ejecutar en el terminal 
+node server.js
+
+
+
+
+
+
+
